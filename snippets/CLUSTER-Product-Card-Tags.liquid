@@ -1,0 +1,44 @@
+
+{% for tag in product.tags %}
+  {% if tag contains 'alpaca_16' %}
+
+<img src="https://cdn.shopify.com/s/files/1/0802/6220/1651/files/CINTILLO-ALPACA-16.jpg?v=1691166234"
+      style="display: block;
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+    width: 2.5rem;
+    z-index: 9;
+    background-size: contain;"/>  
+
+    
+  {% endif %}
+
+  
+{% endfor %}
+
+
+
+{% for discount_collection in product.collections %}
+{% if discount_collection.metafields.custom.monto_descuento %}
+
+  {% assign valor_descuento = discount_collection.metafields.custom.monto_descuento %} 
+  
+  {% break %}
+{% endif %}
+{% endfor %}
+
+
+{% if valor_descuento > 1 %}
+<span style="    position: absolute;
+    left: 0;
+    top: 1rem;
+    padding: 4px 7px;
+    background-color: #3b3b3b;
+    color: #fff;
+    z-index: 9;
+    font-size: 10px;
+    font-weight: bold;">
+-{{ valor_descuento }}%
+</span>
+{% endif %}

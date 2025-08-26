@@ -1,0 +1,62 @@
+{% if on_sale == true %}
+
+
+<span class="OnSaleTag" style="">
+
+{{ discount | append: '%' }}
+ <span style="border-bottom: solid 1px #fff;
+    width: 100%;
+    display: block;"></span> 
+</span>
+  
+{% endif %}
+
+
+
+
+
+{% if settings.product_card_tag == true %}
+
+{% for tag in product.tags %}
+  {% if tag contains settings.product_card_tag_id %}
+
+<img class="" src="{{ settings.product_card_tag_img | image_url: width: 320 }}"
+    loading="lazy"
+      style="display: block;
+    position: absolute;
+    left: 0rem;
+    top: 0;
+    width: 2.5rem;
+    z-index: 9;
+    background-size: contain;"/>  
+
+    
+  {% endif %}
+
+{% endfor %}
+
+{% endif %}
+
+{% for discount_collection in product.collections %}
+{% if discount_collection.metafields.custom.monto_descuento %}
+
+  {% assign valor_descuento = discount_collection.metafields.custom.monto_descuento %} 
+  
+  {% break %}
+{% endif %}
+{% endfor %}
+
+
+{% if valor_descuento > 1 %}
+<span class="DiscountTag" style="    position: absolute;
+    left: 0;
+    top: 1rem;
+    padding: 4px 7px;
+    background-color: #3b3b3b;
+    color: #fff;
+    z-index: 9;
+    font-size: 10px;
+    font-weight: bold;">
+-{{ valor_descuento }}%
+</span>
+{% endif %}

@@ -1,0 +1,164 @@
+<style>
+
+#ColorContainer {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+  
+}
+
+#dynamic_product_colors {
+    padding-top: 2rem;
+    border-top: solid 1px #ccc;
+  
+}
+
+  
+#dynamic_product_colors span {
+font-family: var(--font-stack-header);
+    padding-bottom: 0.5rem;
+    display: block;
+  
+}
+  
+#ColorContainer{
+    width: 100%;
+    display: flex;
+    gap: 0.8rem;    
+    flex-wrap: wrap;
+} 
+            
+#ColorContainer li a{
+    width: 48px;
+    height: 72px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    font-size: 0.9rem;
+    position: relative;
+    background-position: bottom;
+            
+}
+
+#ColorContainer li a span {
+display: none;
+    position: absolute;
+    bottom: -2rem;
+    color: #000;
+  
+  
+}
+
+#ColorContainer li a:hover span {
+display: block;
+  
+}
+
+.prod__accordion {
+
+  
+}
+  
+  
+
+
+#ColorContainer li a.current, #ColorContainer li a:hover{
+            border: solid 1px #fff;
+    box-shadow: -2px 2px 0px #000, -2px -2px 0px #000, 2px -2px 0px #000, -2px -2px 0px #000, 2px 2px 0px #000;
+            
+}            
+
+
+.collapsible__button {
+    display: flex;
+    font-weight: 500;
+    padding-right: 2rem;
+    -webkit-user-select: none;
+    user-select: none;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  
+}
+  
+            
+            
+</style>
+
+
+        
+{% assign textoCompleto = product.title | downcase %}
+{% assign partes = textoCompleto | split: "color" %}
+{% assign primeraParte = partes[0] %}
+
+         
+
+        
+<!-- Imprimir el handle -->
+
+<div id="dynamic_product_colors">
+
+ <span>Couleurs disponibles:</span>           
+<ul id="ColorContainer">
+
+</ul>
+
+
+
+
+  
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+
+<style>
+
+.{{ primeraParte | handleize }} {
+
+
+            
+}            
+            
+            
+</style>
+            
+<script>
+
+          
+      var q = '{{ primeraParte | handleize }}-'
+      
+      var b = '-&resources[type]=product'
+      //$.ajax('/search/suggest.json?q=' + q + b,{
+
+      //products/search.json?query=sku:MYSKU
+      $.ajax('/search/suggest.json?q=' + q + b,{
+        type: 'GET',
+        dataType: 'json', // added data type
+        success: function(response) {
+            console.log(response);
+
+
+
+for (const element of response.resources.results.products) {
+
+  if (element.available == true ){
+  
+  $("#ColorContainer").append('<li class="' + element.handle +'"><a href="' + element.url +'" class="' + element.title.slice(0, 6) +'" style="background-image:url('+ element.image +');"></a></li>' );
+    
+    
+  }
+          
+
+          
+}          
+
+          
+          	var productSuggestions = response.resources.results.products;
+      	}
+      });
+</script>
+
+            
+            
+</div>

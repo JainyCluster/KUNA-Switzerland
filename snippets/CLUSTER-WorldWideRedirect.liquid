@@ -1,0 +1,343 @@
+<style>
+
+
+#WorldRedirect{
+
+
+
+  
+}
+
+
+#WorldRedirect #ModalWorld {
+
+    display: flex;
+    position: fixed;
+    z-index: 9999999999999999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+
+
+
+
+  
+
+#WorldRedirect #ModalWorld ul {
+
+    border-right: solid 1px #eaeaea;
+    padding: 10% 4rem;
+  
+}
+
+#WorldRedirect #ModalWorld ul:last-child {
+    border-right:none;
+  
+}
+
+
+.mobile #WorldRedirect #ModalWorld {
+    flex-direction: column;
+    overflow: scroll;
+    justify-content: flex-start;
+    padding-bottom: 10rem;
+    padding-top: 9rem;
+  
+}
+  
+
+  
+.mobile #WorldRedirect #ModalWorld ul {
+
+    padding: 10% 4rem 0% 4rem;
+  
+}
+  
+
+#CloseModalWorld {
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    width: 2rem;
+    height: 2rem;
+  
+}
+  
+  
+text-container{
+
+    position: fixed;
+    background-color: #fff;
+    padding: 1rem;
+    border-bottom: solid 1px #eaeaea;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    top: 0;
+
+  
+}
+
+
+.mobile #WorldRedirect #ModalWorld ul:last-child {
+margin-bottom: 5rem;
+  
+}
+
+
+#LocationRedirect{
+
+    position: absolute;
+    left: 0;
+    top: 4rem;
+    padding: 1rem;
+    background-color: #fff;
+    width: 100%;
+    border-bottom: solid 1px #eaeaea;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desktop #LocationRedirect{
+
+    display: flex;
+    width: auto;
+    gap: 3rem;
+    top: 0;
+    height: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: solid 1px #eaeaea;
+    border-right: solid 1px #eaeaea;
+  
+}
+  
+#LocationRedirect a{
+    padding: 0.7rem 1.3rem;
+    background: #000;
+    color: #fff;
+
+}  
+  
+  
+</style>
+
+
+
+
+<redirect-container id="WorldRedirect">
+
+
+  
+<redirect-modal id="ModalWorld" style="display: none;">
+
+
+<text-container>
+
+SELECT YOUR COUNTRY
+
+
+<div id="LocationRedirect" style="display: none;"></div>
+  
+</text-container>
+  
+<button id="CloseModalWorld" onclick="CloseModalWorld()">
+
+<svg style="width: 2rem;height: 2rem;" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+<path d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"></path>
+</svg>
+  
+</button>
+
+  <ul>
+  <h4>North America</h4>
+    <li><a href="//us.kunastores.com">United States</a></li>
+  
+</ul>
+
+  
+<ul>
+  <h4>Latin America</h4>
+<li><a href="//ar.kunastores.com">Argentina</a></li>
+<li><a href="//kunastores.com">Bolivia</a></li>
+<li><a href="//cl.kunastores.com">Chile</a></li>
+<li><a href="//kunastores.com">Colombia</a></li>
+<li><a href="//kunastores.com">Costa Rica</a></li>
+<li><a href="//kunastores.com">Ecuador</a></li>
+<li><a href="//kunastores.com">Guatemala</a></li>
+<li><a href="//kunastores.com">Mexico</a></li>
+<li><a href="//kunastores.com">Panama</a></li>
+<li><a href="//kunastores.com">Paraguay</a></li>
+<li><a href="//pe.kunastores.com">Peru</a></li>
+  <li><a href="//kunastores.com">Puerto Rico</a></li> 
+
+<li><a href="//kunastores.com">Uruguay</a></li>
+  
+</ul>
+
+  
+<ul>
+  <h4>Europa</h4>
+<li><a href="//kunastores.com">Belgium</a></li>
+<li><a href="//kunastores.com">Bulgaria</a></li>
+<li><a href="//kunastores.com">Cyprus</a></li>
+<li><a href="//kunastores.com">Czech Republic</a></li>
+<li><a href="//kunastores.com">Denmark</a></li>
+<li><a href="//kunastores.com">Finland</a></li>
+<li><a href="//kunastores.com">France</a></li>
+<li><a href="//kunastores.com">Germany</a></li>
+<li><a href="//kunastores.com">Ireland</a></li>
+<li><a href="//kunastores.com">Italy</a></li>
+<li><a href="//kunastores.com">Luxembourg</a></li>
+<li><a href="//kunastores.com">Netherlands</a></li>
+<li><a href="//kunastores.com">Norway</a></li>
+<li><a href="//kunastores.com">Poland</a></li>
+<li><a href="//kunastores.com">Portugal</a></li>
+<li><a href="//kunastores.com">Spain</a></li>
+<li><a href="//kunastores.com">Sweden</a></li>
+<li><a href="//ch.kunastores.com">Switzerland</a></li>
+<li><a href="//kunastores.com">UK</a></li>
+</ul>
+
+ 
+<ul>
+  <h4>Oceania</h4>
+    <li><a href="//kunastores.com">Australia</a></li>
+    <li><a href="//kunastores.com">New Zealand</a></li>
+
+</ul>
+<ul>
+  <h4>Asia</h4>
+  
+<li><a href="//kunastores.com">China</a></li>
+<li><a href="//kunastores.com">Hong Kong</a></li>
+<li><a href="//kunastores.com">India</a></li>
+<li><a href="//kunastores.com">Indonesia</a></li>
+<li><a href="//kunastores.com">Israel</a></li>
+<li><a href="//kunastores.com">Japan</a></li>
+<li><a href="//kunastores.com">Kuwait</a></li>
+<li><a href="//kunastores.com">Qatar</a></li>
+<li><a href="//kunastores.com">South Korea</a></li>
+{% comment %}<li><a href="//kunastores.com">Taiwan</a></li>{% endcomment %}
+
+  
+</ul>
+
+<ul>
+  <h4>Africa</h4>
+<li><a href="//kunastores.com">South Africa</a></li>
+
+
+  
+</ul>
+  
+  
+  
+</redirect-modal>
+  
+
+</redirect-container>
+
+<script>
+
+// Guardar la variable booleana en localStorage
+
+
+
+
+const nonFirstVisit = localStorage.getItem("non_first");
+
+
+
+
+
+
+  
+  
+
+function OpenModalWorld() {
+  document.getElementById("ModalWorld").style.display = "flex";
+}
+
+function CloseModalWorld() {
+  document.getElementById("ModalWorld").style.display = "none";
+}
+
+console.log("path: {{ request.path }}");
+
+fetch('https://ch.kunastores.com/browsing_context_suggestions.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(data => {
+        // Suponiendo que quieres mostrar una propiedad específica del objeto JSON
+        //alert(data.detected_values.country.handle);  // Reemplaza "algunaPropiedad" con la clave adecuada
+
+if (data.detected_values.country.handle == "PE" ){
+
+  document.getElementById("LocationRedirect").style.display = "flex";
+  document.getElementById("LocationRedirect").innerHTML = 'Looks like you’re in <a href="//pe.kunastores.com">Go to Perú</a>';
+
+    //window.location.href = "https://pe.kunastores.com{{ request.path }}";
+
+
+  
+}
+if (data.detected_values.country.handle == "US" ){
+
+  document.getElementById("LocationRedirect").style.display = "flex";
+  document.getElementById("LocationRedirect").innerHTML = 'Looks like you’re in USA <a href="//us.kunastores.com">Go to USA</a>';
+
+  //window.location.href = "https://US.kunastores.com{{ request.path }}";
+  
+  
+}
+if (data.detected_values.country.handle == "AR" ){
+
+  document.getElementById("LocationRedirect").style.display = "flex";
+  document.getElementById("LocationRedirect").innerHTML = 'Looks like you’re in Argentina <a href="//ar.kunastores.com">Go to Argentina</a>';
+
+  //window.location.href = "https://ar.kunastores.com{{ request.path }}";
+  
+}
+
+  if (data.detected_values.country.handle == "TW" ){
+
+  document.getElementById("LocationRedirect").style.display = "flex";
+  document.getElementById("LocationRedirect").innerHTML = 'Looks like you’re in Taiwan <a href="//kunastores.com/pages/taiwan">Go to Taiwan</a>';
+
+  window.location.href = "https://kunastores.com/pages/taiwan{{ request.path }}";
+  
+}
+      
+if (data.detected_values.country.handle == "CL" ){
+
+  document.getElementById("LocationRedirect").style.display = "flex";
+  document.getElementById("LocationRedirect").innerHTML = 'Looks like you’re in Chile <a href="//cl.kunastores.com">Go to Chile</a>';
+
+  //window.location.href = "https://cl.kunastores.com{{ request.path }}";  
+  
+}
+
+
+   
+
+      
+    })
+    .catch(error => {
+        console.log('There was a problem with the fetch operation:', error.message);
+    });
+
+  
+</script>

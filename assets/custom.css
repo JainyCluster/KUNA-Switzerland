@@ -1,0 +1,17 @@
+
+
+@media (max-width: 1023.5px) {
+  /* General */
+  .sf__featured-collection .container-fluid,
+  .facest-filters-section .container-fluid,
+  .collection-list .container-fluid,
+  .sf-product__section.product-recommendations .container-fluid {
+    --offset-x: 0;
+  }
+
+  /* Product card */
+  .sf__pcard.sf__pcard-style-1 .sf__pcard-image .sf__pcard-action {
+    opacity: 1;
+    transform: none;
+  }
+}

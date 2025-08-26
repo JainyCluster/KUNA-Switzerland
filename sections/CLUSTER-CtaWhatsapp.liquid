@@ -1,0 +1,308 @@
+<style>
+.CtaWhatsapp {
+    position: fixed;
+    z-index: 999999999;
+    bottom: 3rem;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 1rem;
+    border-radius: 100rem;
+    background-color: #fff;
+    box-shadow: 1px 1px 20px #0000004d;
+    gap: 0.7rem;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    letter-spacing: 0.8px;
+    line-height: 1rem;
+    font-weight: bold;
+}
+
+.CtaWhatsapp svg {
+    width: 30px;
+    height: 30px;
+}
+
+#CtaWhatsappBox {
+
+    position: fixed;
+    bottom: 0rem;
+    left: 1rem;
+    max-width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 1rem 1rem 0rem 0rem;
+    padding: 1rem;
+    gap: 1rem;
+    z-index: 999999999999;
+    box-shadow: 0 0 10rem #000000b3;
+  
+}
+
+  
+
+#CtaWhatsappBox a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 1rem;
+    border-radius: 100rem;
+    background-color: #fff;
+    box-shadow: 1px 1px 20px #0000004d;
+    gap: 0.7rem;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    letter-spacing: 0.8px;
+    line-height: 1rem;
+    font-weight: bold;
+}
+
+
+
+  
+
+
+#CtaWhatsappBox btn-help {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 1rem;
+    border-radius: 100rem;
+    background-color: #fff;
+    box-shadow: 1px 1px 20px #0000004d;
+    gap: 0.7rem;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    letter-spacing: 0.8px;
+    line-height: 1rem;
+    font-weight: bold;
+  
+}
+
+  
+#CtaWhatsappBox svg {
+    width: 30px;
+    height: 30px;
+} 
+
+#CtaWhatsappBoxClose {
+    position: absolute;
+    right: -0.8rem;
+    top: -0.8rem;
+    background: #000;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+#CtaWhatsappBoxClose svg{
+
+    fill: #fff;
+    width: 50%;
+    height: 50%;
+  
+}
+
+
+  
+
+#CtaWhatsappBox.hidden{
+
+    overflow: hidden;
+    height: 3.4rem;
+    border-radius: 100rem;
+    padding: 0;
+    max-width: none;
+    width: auto;
+    bottom: 1rem;
+    width: 13rem;
+  
+}
+
+#CtaWhatsappBox.hidden #CtaWhatsappBoxClose{
+
+display: none;
+  
+}
+
+
+#CtaWhatsappBox #BtnHelp{
+
+display: none;
+  
+} 
+  
+  
+#CtaWhatsappBox.hidden #BtnHelp{
+
+display: flex;
+  
+}  
+
+  
+  
+
+  
+</style>
+
+
+{% if section.settings.container_type == "one_button"%}
+
+<a style="left: 1rem; " class="CtaWhatsapp" href="https://api.whatsapp.com/send?phone=+{{ section.settings.number }}&text={{ section.settings.message }}" target="_blank">
+<svg>       
+     <image xlink:href="{{ section.settings.img_icono | image_url: width: 100 }}" width="30" height="30"/>    
+</svg>
+¿NECESITAS AYUDA?
+     
+     
+</a>
+{% endif %}
+{% if section.settings.container_type == "multiple_button"%}
+       
+
+<div id="CtaWhatsappBox" class="hidden">
+
+
+<btn-help id="BtnHelp">
+<svg>       
+     <image xlink:href="{{ section.settings.img_icono | image_url: width: 100 }}" width="30" height="30"/>    
+</svg>
+¿Necesitas ayuda?
+  
+</btn-help>
+
+
+  
+<span id="CtaWhatsappBoxClose"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+<path d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"></path>
+</svg></span>
+  
+<a style="" class="" href="https://api.whatsapp.com/send?phone=+{{ section.settings.number_1 }}&text={{ section.settings.message_1 }}" target="_blank">
+<svg>       
+     <image xlink:href="{{ section.settings.img_icono | image_url: width: 100 }}" width="30" height="30"/>    
+</svg>
+Necesito ayuda para comprar
+     
+     
+</a>
+
+<a style="" class="" href="https://api.whatsapp.com/send?phone=+{{ section.settings.number_2 }}&text={{ section.settings.message_2 }}" target="_blank">
+<svg>       
+     <image xlink:href="{{ section.settings.img_icono | image_url: width: 100 }}" width="30" height="30"/>    
+</svg>
+Necesito información de mi pedido
+     
+     
+</a>
+       
+
+  
+</div>
+
+  <script>
+    var modal = document.getElementById("CtaWhatsappBox");
+    var closeBtn = document.getElementById("CtaWhatsappBoxClose");
+
+    closeBtn.addEventListener("click", function() {
+      modal.classList.add("hidden");
+    });
+
+    var btnHelp = document.getElementById("BtnHelp");
+    var ctaWhatsappBox = document.getElementById("CtaWhatsappBox");
+
+    btnHelp.addEventListener("click", function() {
+      ctaWhatsappBox.classList.remove("hidden");
+    });
+
+
+    
+  </script>
+
+       
+{% endif %}       
+
+
+
+{% schema %}
+{
+  "name": "CLUSTER | CtaWhatsapp",
+  "settings": [
+
+
+      {
+        "type": "select",
+        "id": "container_type",
+        "label": "Container Type",
+        "options": [
+          {
+            "value": "one_button",
+            "label": "one_button"
+          },
+          {
+            "value": "multiple_button",
+            "label": "multiple_button"
+          }
+        ]
+      },
+
+
+    
+      {
+        "type": "text",
+        "id": "number_1",
+        "label": "Número de whatsapp (incluir el código de país 51)"
+      },
+    
+      {
+        "type": "text",
+        "id": "number_2",
+        "label": "Número de whatsapp (incluir el código de país 51)"
+      },
+
+    
+      {
+        "type": "text",
+        "id": "message_1",
+        "label": "Mensaje predeterminado"
+      }, 
+      {
+        "type": "text",
+        "id": "message_2",
+        "label": "Mensaje predeterminado"
+      },
+
+    {
+  "type": "image_picker",
+  "id": "img_icono",
+  "label": "Image"
+}
+
+  ],
+  "presets": [
+    {
+      "name": "CLUSTER | CtaWhatsapp",
+      "category": "CLUSTER"
+    }
+
+
+
+
+    
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
