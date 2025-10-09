@@ -170,129 +170,160 @@
 
 
 <ul class="FichaTecnica">
+  {% assign tags_joined = product.tags | join: ',' | downcase %}
 
-<!-- INICIO ESPECIFICACION -->                    
-<li>                  
-{% for tag in product.tags %}
+  {% capture aliases %}
+    {% for t in product.tags %}
+      {% assign tl = t | downcase %}
+      {% assign parts = tl | split: '_' %}
+      {% assign last = parts | last %}
+      {{ last }},
+    {% endfor %}
+  {% endcapture %}
 
-{% if tag == "CARTERAS" or tag == "FRAZADAS" or tag == "MANTAS"or tag == "PANTUFLAS"or tag == "PELUCHES"or tag == "RIÑONERAS" 
-  or tag == "SAC À MAIN" or tag == "COUVERTURE"or tag == "PLAID" or tag == "PANTOUFLES"or tag == "ALPACA STUFFED ANIMAL"%}
-  
-<p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène.</p>
+  {% assign tags_norm = tags_joined | append: ',' | append: aliases %}
+  {% assign emitted = '' %}
 
-{% endif %}
+  {% unless emitted contains '|bolsos_mantas_pantuflas|' %}
+    {% if tags_norm contains 'cartera' or tags_norm contains 'frazada' or tags_norm contains 'manta' or tags_norm contains 'pantufla' or tags_norm contains 'peluche' or tags_norm contains 'riñonera' or tags_norm contains 'sac à main' or tags_norm contains 'sac a main' or tags_norm contains 'couverture' or tags_norm contains 'plaid' or tags_norm contains 'pantoufle' or tags_norm contains 'alpaca stuffed animal' %}
+      {% assign emitted = emitted | append: '|bolsos_mantas_pantuflas|' %}
+      <li>
+        <p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène.</p>
+      </li>
+    {% endif %}
+  {% endunless %}
 
-{% if tag == "CALENTADORES" or tag == "GORROS" or tag == "GUANTES" or tag == "CHAUFFAGE" or tag == "BONNET" or tag == "GANTS"%}
-  
-<p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène.<br>
-<p>Ne pas stocker dans un sac en plastique, cela peut créer de l'humidité. </p>
+  {% unless emitted contains '|gorras_guantes_calentadores|' %}
+    {% if tags_norm contains 'calentador' or tags_norm contains 'gorro' or tags_norm contains 'guante' or tags_norm contains 'chauffage' or tags_norm contains 'bonnet' or tags_norm contains 'gant' %}
+      {% assign emitted = emitted | append: '|gorras_guantes_calentadores|' %}
+      <li>
+        <p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène.</p>
+        <p>Ne pas stocker dans un sac en plastique, cela peut créer de l'humidité.</p>
+      </li>
+    {% endif %}
+  {% endunless %}
 
-{% endif %}
+  {% unless emitted contains '|camisas_pantalones_polos_ponchos|' %}
+    {% if tags_norm contains 'camisa' or tags_norm contains 'pantalon' or tags_norm contains 'pantalón' or tags_norm contains 'polo' or tags_norm contains 'poncho' or tags_norm contains 'chemise' or tags_norm contains 'pantalon' %}
+      {% assign emitted = emitted | append: '|camisas_pantalones_polos_ponchos|' %}
+      <li>
+        <p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène.</p>
+        <p>Repassage à basse températures (110°C).</p>
+      </li>
+    {% endif %}
+  {% endunless %}
 
-{% if tag == "CAMISAS" or tag == "PANTALONES" or tag == "POLOS" or tag == "PONCHOS" or tag == "CHEMISE" or tag == "PANTALON" or tag == "POLO" %}
-  
-<p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène. <br>
-<p>Repassage à basse températures (110°C).</p>
+  {% unless emitted contains '|abrigos_capas_casacas_chalecos|' %}
+    {% if tags_norm contains 'abrigo' or tags_norm contains 'capa' or tags_norm contains 'casaca' or tags_norm contains 'chaleco' or tags_norm contains 'manteau' or tags_norm contains 'cape' or tags_norm contains 'blouson' or tags_norm contains 'gilet' %}
+      {% assign emitted = emitted | append: '|abrigos_capas_casacas_chalecos|' %}
+      <li>
+        <p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène.</p>
+        <p>Repassage à basse températures (110°C).</p>
+        <p>Ne pas stocker dans un sac en plastique, cela peut créer de l'humidité.</p>
+      </li>
+    {% endif %}
+  {% endunless %}
 
-{% endif %}
+  {% unless emitted contains '|cardigan|' %}
+    {% if tags_norm contains 'cárdigan' or tags_norm contains 'cardigan' %}
+      {% assign emitted = emitted | append: '|cardigan|' %}
+      <li>
+        <p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène.</p>
+        <p>Repassage à basse températures (110°C).</p>
+        <p>Ne pas stocker dans un sac en plastique, cela peut créer de l'humidité.</p>
+        <p>En règle générale, nous vous recommandons de ne pas accrocher ce type de vêtement.</p>
+      </li>
+    {% endif %}
+  {% endunless %}
 
-{% if tag == "ABRIGOS" or tag == "CAPAS" or tag == "CASACAS" or tag == "CHALECOS" 
-  or tag == "MANTEAU" or tag == "CAPE" or tag == "BLOUSON" or tag == "GILET"%}
-  
-<p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène. <br>
-<p>Repassage à basse températures (110°C).  <br> 
-<p>Ne pas stocker dans un sac en plastique, cela peut créer de l'humidité.</p>
+  {% unless emitted contains '|blusas_faldas|' %}
+    {% if tags_norm contains 'blusa' or tags_norm contains 'falda' or tags_norm contains 'chemisier' or tags_norm contains 'jupe' %}
+      {% assign emitted = emitted | append: '|blusas_faldas|' %}
+      <li>
+        <p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène.</p>
+        <p>Repassage à basse températures (110°C).</p>
+        <p>Ne pas utiliser de lave-linge ou de sèche-linge.</p>
+      </li>
+    {% endif %}
+  {% endunless %}
 
-{% endif %}
+  {% unless emitted contains '|chalinas_estolas|' %}
+    {% if tags_norm contains 'chalina' or tags_norm contains 'estola' or tags_norm contains 'écharpe' or tags_norm contains 'echarpe' or tags_norm contains 'étole' or tags_norm contains 'etole' %}
+      {% assign emitted = emitted | append: '|chalinas_estolas|' %}
+      <li>
+        <p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène.</p>
+        <p>Repassage à basse températures (110°C).</p>
+        <p>Ne pas utiliser de lave-linge ou de sèche-linge.</p>
+        <p>Ne pas stocker dans un sac en plastique, cela peut créer de l'humidité.</p>
+        <p>En règle générale, nous vous recommandons de ne pas accrocher ce type de vêtement.</p>
+        <p>Les fils naturels sont susceptibles de se déchirer et peuvent s'user plus tôt s'ils sont exposés au frottement.</p>
+        <p>Évitez de frotter avec des éléments abrasifs.</p>
+      </li>
+    {% endif %}
+  {% endunless %}
 
+  {% unless emitted contains '|sacos|' %}
+    {% if tags_norm contains 'saco' or tags_norm contains 'manteau' %}
+      {% assign emitted = emitted | append: '|sacos|' %}
+      <li>
+        <p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène.</p>
+        <p>Repassage à basse températures (110°C).</p>
+        <p>Ne pas stocker dans un sac en plastique, cela peut créer de l'humidité.</p>
+      </li>
+    {% endif %}
+  {% endunless %}
 
-{% if tag == "CÁRDIGAN" or tag == "CARDIGAN"%}
-  
-<p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène. <br>
-<p>Repassage à basse températures (110°C).   <br>
-<p>Ne pas stocker dans un sac en plastique, cela peut créer de l'humidité. <br>
-<p>En règle générale, nous vous recommandons de ne pas accrocher ce type de vêtement.</p>
+  {% unless emitted contains '|sueteres|' %}
+    {% if tags_norm contains 'suéter' or tags_norm contains 'sueter' or tags_norm contains 'pull' %}
+      {% assign emitted = emitted | append: '|sueteres|' %}
+      <li>
+        <p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène.</p>
+        <p>Repassage à basse températures (110°C).</p>
+        <p>Ne pas stocker dans un sac en plastique, cela peut créer de l'humidité.</p>
+        <p>En règle générale, nous vous recommandons de ne pas accrocher ce type de vêtement.</p>
+      </li>
+    {% endif %}
+  {% endunless %}
 
-{% endif %}
+  {% unless emitted contains '|vestidos|' %}
+    {% if tags_norm contains 'vestido' or tags_norm contains 'robe' %}
+      {% assign emitted = emitted | append: '|vestidos|' %}
+      <li>
+        <p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène.</p>
+        <p>Repassage à basse températures (110°C).</p>
+        <p>Ne pas utiliser de lave-linge ou de sèche-linge.</p>
+      </li>
+    {% endif %}
+  {% endunless %}
 
+  {% unless emitted contains '|vinchas|' %}
+    {% if tags_norm contains 'vincha' %}
+      {% assign emitted = emitted | append: '|vinchas|' %}
+      <li>
+        <p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène.</p>
+        <p>Ne pas stocker dans un sac en plastique, cela peut créer de l'humidité.</p>
+      </li>
+    {% endif %}
+  {% endunless %}
 
-{% if tag == "BLUSAS" or tag == "FALDAS" or tag == "CHEMISIER" or tag == "JUPE"%}
-  
-<p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène. <br>
-<p>Repassage à basse températures (110°C). <br> 
-<p>Ne pas utiliser de lave-linge ou de sèche-linge.</p>
-
-{% endif %}
-
-
-{% if tag == "CHALINAS" or tag == "ESTOLAS" or tag == "ÉCHARPE" or tag == "ÉTOLE"%}
-  
-<p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène. <br>
-<p>Repassage à basse températures (110°C).  <br>
-<p>Ne pas utiliser de lave-linge ou de sèche-linge.<br>
-<p>Ne pas stocker dans un sac en plastique, cela peut créer de l'humidité. <br>
-<p>En règle générale, nous vous recommandons de ne pas accrocher ce type de vêtement. <br>
-<p>Les fils naturels sont susceptibles de se déchirer et peuvent s'user plus tôt s'ils sont exposés au frottement.<br>
-<p>Évitez de frotter avec des éléments abrasifs.</p>
-
-{% endif %}
-
-
-{% if tag == "SACOS" or tag == "MANTEAU"%}
-  
-<p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène. <br>
-<p>Repassage à basse températures (110°C). <br>
-<p>Ne pas stocker dans un sac en plastique, cela peut créer de l'humidité.</p>
-
-{% endif %}
-
-
-{% if tag == "SUÉTERES" or tag == "PULL"%}
-  
-<p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène. <br>
-<p>Repassage à basse températures (110°C).  <br>
-<p>Ne pas stocker dans un sac en plastique, cela peut créer de l'humidité. <br>
-<p>En règle générale, nous vous recommandons de ne pas accrocher ce type de vêtement.</p>
-
-{% endif %}
-
-{% if tag == "VESTIDOS" or tag == "ROBE"%}
-  
-<p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène. <br>
-<p>Repassage à basse températures (110°C). <br>
-<p>Ne pas utiliser de lave-linge ou de sèche-linge.</p>
-
-{% endif %}
-
-{% if tag == "VINCHAS" or tag == "VINCHA"%}
-  
-<p>Nettoyage à sec, en utilisant n'importe quel solvant sauf le trichloréthylène.<br>
-<p>Ne pas stocker dans un sac en plastique, cela peut créer de l'humidité.</p>
-
-{% endif %}
-
-
-{% if tag == "AMBIENTADORES" or tag == "AIR FRESHENER"%}
-  
-<p>A conserver à température ambiante.</p>
-
-{% endif %}  
- 
-
-
-
- 
-
-
-  
-  
+  {% unless emitted contains '|ambientadores|' %}
+    {% if tags_norm contains 'ambientador' or tags_norm contains 'air freshener' %}
+      {% assign emitted = emitted | append: '|ambientadores|' %}
+      <li>
+        <p>A conserver à température ambiante.</p>
+      </li>
+    {% endif %}
+  {% endunless %}
 
 
-  
-{% endfor %}
-</li>
-<!-- FIN ESPECIFICACION -->
-                
+{% if product.metafields.custom.recomendaciones != blank %}
+  <li>
+                    <div class="product-recomendaciones">
+                      {{ product.metafields.custom.recomendaciones }}
+                    </div>
+                  </li>
+
+                  {% endif %}
 </ul>
 
                         
