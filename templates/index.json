@@ -1,1 +1,1025 @@
-{"sections":{"c72959ad-9620-4e94-ae33-1bde908e9701":{"type":"custom-code","settings":{"custom_css":"m-handpicked-products { display: block; }\n.sf-home__iconbox .section-my {\n  padding-top: 45px;\n  padding-bottom: 45px;\n  margin-bottom: 0;\n  margin-top: 0;\n}\n.sf-home__iconbox {\n  border-top: 1px solid #eee;\n}\n.sf-home__iconbox .sf-icon-box__text h3 {\n  line-height: 26px;\n  font-size: 20px;\n  font-weight: 500;\n}\n.sf-custom-text--large .prose {\n  color: var(--color-heading-text);\n}\n.sf-custom--collection-banner .image-card--button-fixed .sf__btn-fixed {\n  border-color: #d2d2d2;\n}\n  .sf-home__collection-list .collection-card__info h3 a {\n    font-size: 24px;\nline-height: 1.4;\n    font-weight: 400;\n  }\n  .sf-home__collection-list .collection-card__info p {\n    font-size: 16px;\n    line-height: 20px;\n  }\n  .sf-home__iconbox .sf-icon-box__text h3 {\n    font-size: 18px;\n    margin-bottom: 2px;\n  }\n.sf-video--custom-content .sf-video__wrapper {\n  --aspect-ratio: 82\/105 !important;\n}\n.image__card-subheading,\n.content__subheading {\n  font-weight: 600;\n}\n.sf-custom--collection-banner .image__card-heading {\n  line-height: 1.3;\n}\n.sf-handpicked-products__header .content__heading,\n.sf-custom-text--large .content__heading,\n.sf-custom--collection-banner .image__card-heading {\n  font-size: 36px;\n}\n.image-card--button-fixed .sf__btn-fixed {\n  padding-bottom: 20px;\n}\n@media (min-width: 768px) {\n  .sf-custom--collection-banner .image__card-subheading,\n  .sf-handpicked-products__header .content__subheading {\n    font-size: 20px;\n  }\n  .sf-custom__handpicked-products {\n    padding-bottom: 30px;\n  }\n  .image-card--button-fixed .sf__btn-fixed {\n    padding-bottom: 40px;\n    padding-top: 24px;\n  }\n}\n@media (min-width: 1024px) {\n  .sf__footer-block-newsletter .sf__footer-block-title {\n    font-size: 28px;\n    font-weight: 400;\n  }\n  .sf-custom__handpicked-products {\n    padding-bottom: 0;\n    padding-right: 50px;\n  }\n  .sf-handpicked-products__header .content__heading,\n  .sf-custom-text--large .content__heading,\n  .sf-custom--collection-banner .image__card-heading {\n    font-size: 48px;\n  }\n  .sf-custom--collection-banner .image-card__content {\n    padding-top: 70px;\n  }\n}\n@media (min-width: 1280px) {\n  .sf-handpicked-products__header .content__heading,\n  .sf-custom-text--large .content__heading,\n  .sf-custom--collection-banner .image__card-heading {\n    font-size: 60px;\n  }\n  .sf-custom__handpicked-products {\n    padding-bottom: 0;\n    padding-right: 100px;\n  }\n}\n@media (min-width: 1536px) {\n  .sf-home__slideshow .slide__block-title {\n    font-size: 70px;\n    line-height: 80px;\n  }\n  .sf-custom-text--large .prose {\n    font-size: 32px;\n    line-height: 1.4;\n  }\n  .sf-custom--collection-banner .image-card__content {\n    padding-top: 110px;\n  }\n}\n@media (max-width: 767px) {\n  .sf-icon-box--large .sf-icon-box h3{\n    font-size: 20px;\n  }\n}\n@media (max-width: 576px) {\n  .sf-home__slideshow a.sf__mobile-button,\n  .sf-home__product-tab .sf__btn-primary,\n  .sf-home__product-tab .sf__btn-secondary {\n    width: 100%;\n  }\n}"}},"1621243260e1af0c20":{"type":"slider","blocks":{"bb3926b0-2131-446d-a4d0-ba3a666a7b16":{"type":"slider_item","settings":{"mesVisible":1,"diaVisible":1,"horaVisible":1,"mesInvisible":12,"diaInvisible":31,"horaInvisible":23,"video":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7890d90f235841dab9c28821c9b553f3.mp4","video_mb":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6d609497e3034f6eadf2bbc2dc05d69e.mp4","content_in_container":false,"content_position":"center bottom","text_alignment":"center","text_size":"medium","text_color":"white","subheading":"Closing a chapter, continuing a legacy","title":"UP TO 70% OFF | While stocks last","description":"","image_link":"shopify:\/\/collections\/soldes","button_text":"DÉCOUVREZ","button_link":"shopify:\/\/collections\/soldes","button_text_2":"","button_link_2":"","button_style":"sf__btn-white","button_style_2":"sf__btn-primary","button_size":"sf__btn-small","show_footer":false,"footer_alignment":"end","footer_text":"New Collection","footer_button":"VER COLECCIÓN","footer_link":""}},"6599565e-9a96-43e3-b2f6-6be4c3ddec16":{"type":"slider_item","disabled":true,"settings":{"mesVisible":3,"diaVisible":1,"horaVisible":0,"mesInvisible":5,"diaInvisible":1,"horaInvisible":0,"background":"shopify:\/\/shop_images\/PORTADA-MAR-DESKTOP-KUNA-SUIZA-2.jpg","mb_background":"shopify:\/\/shop_images\/PORTADA-MAR-RESPONSIVE-KUNA-SUIZA-2.jpg","video":"","video_mb":"","content_in_container":false,"content_position":"center bottom","text_alignment":"center","text_size":"medium","text_color":"white","subheading":"Tout à -50%","title":"SPRING SALES","description":"","image_link":"shopify:\/\/collections\/soldes","button_text":"DÉCOUVREZ","button_link":"shopify:\/\/collections\/soldes","button_text_2":"","button_link_2":"","button_style":"sf__btn-white","button_style_2":"sf__btn-primary","button_size":"sf__btn-small","show_footer":false,"footer_alignment":"end","footer_text":"","footer_button":"","footer_link":""}},"d489889e-3752-497d-9c18-955c8224628f":{"type":"slider_item","disabled":true,"settings":{"mesVisible":3,"diaVisible":1,"horaVisible":0,"mesInvisible":5,"diaInvisible":1,"horaInvisible":0,"background":"shopify:\/\/shop_images\/PORTADA-MAR-DESKTOP-KUNA-SUIZA-1.jpg","mb_background":"shopify:\/\/shop_images\/PORTADA-MAR-RESPONSIVE-KUNA-SUIZA-1.jpg","video":"","video_mb":"","content_in_container":true,"content_position":"center bottom","text_alignment":"center","text_size":"medium","text_color":"white","subheading":"Jusqu'à -30%","title":"VICUÑA","description":"","image_link":"shopify:\/\/collections\/soldes","button_text":"DÉCOUVREZ","button_link":"shopify:\/\/collections\/soldes","button_text_2":"","button_link_2":"","button_style":"sf__btn-white","button_style_2":"sf__btn-primary","button_size":"sf__btn-small","show_footer":false,"footer_alignment":"end","footer_text":"New Collection","footer_button":"Shop Now","footer_link":""}},"slider_item_pHqq3P":{"type":"slider_item","disabled":true,"settings":{"mesVisible":1,"diaVisible":1,"horaVisible":0,"mesInvisible":12,"diaInvisible":31,"horaInvisible":23,"video":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1a3d36a0d9dd41ccbd1f39395fe52776.mp4","video_mb":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/06f39ac0690840ad9f2a523fa079cff7.mp4","content_in_container":true,"content_position":"center bottom","text_alignment":"center","text_size":"medium","text_color":"white","subheading":"Fall Winter 24","title":"ALPACA LOVERS","description":"","image_link":"shopify:\/\/collections\/collection-alpaca-lovers","button_text":"DÉCOUVREZ","button_link":"shopify:\/\/collections\/collection-alpaca-lovers","button_text_2":"","button_link_2":"","button_style":"sf__btn-white","button_style_2":"sf__btn-primary","button_size":"sf__btn-small","show_footer":false,"footer_alignment":"end","footer_text":"The ReCotton Tee","footer_button":"Shop Now","footer_link":""}},"e818ec6b-01b4-4829-afa8-dd230860a519":{"type":"slider_item","disabled":true,"settings":{"mesVisible":1,"diaVisible":1,"horaVisible":1,"mesInvisible":1,"diaInvisible":29,"horaInvisible":0,"video":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/678a749abaaf4f7f9f9742d85951270e.mp4","video_mb":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f5eaa4903e37474caec8bf27eb5835d4.mp4","content_in_container":true,"content_position":"center bottom","text_alignment":"center","text_size":"medium","text_color":"white","subheading":"","title":"CAMEL STORY","description":"","image_link":"shopify:\/\/collections\/collection-camel-story","button_text":"DÉCOUVREZ","button_link":"shopify:\/\/collections\/collection-camel-story","button_text_2":"","button_link_2":"","button_style":"sf__btn-white","button_style_2":"sf__btn-primary","button_size":"sf__btn-small","show_footer":false,"footer_alignment":"end","footer_text":"The ReCotton Tee","footer_button":"Shop Now","footer_link":""}}},"block_order":["bb3926b0-2131-446d-a4d0-ba3a666a7b16","6599565e-9a96-43e3-b2f6-6be4c3ddec16","d489889e-3752-497d-9c18-955c8224628f","slider_item_pHqq3P","e818ec6b-01b4-4829-afa8-dd230860a519"],"settings":{"container":"w-full","slideshow_height":"fullscreen","show_overlay":false,"dots_position":"bottom","dots_color":"light","show_dots":true,"show_arrows":false,"autorotate":true,"autorotate_speed":6,"use_content_above":true,"custom_class":"","animations":"inherit"}},"slider_dCDaQB":{"type":"slider","blocks":{"slider_item_NWwyNw":{"type":"slider_item","settings":{"mesVisible":1,"diaVisible":1,"horaVisible":1,"mesInvisible":12,"diaInvisible":31,"horaInvisible":23,"background":"shopify:\/\/shop_images\/ICONOS_ENG_DESKTOP_2.png","mb_background":"shopify:\/\/shop_images\/ICONOS_ENG_CEL_3.png","video":"","video_mb":"","content_in_container":true,"content_position":"center bottom","text_alignment":"center","text_size":"medium","text_color":"white","subheading":"","title":"","description":"","image_link":"shopify:\/\/collections\/soldes","button_text":"","button_link":"shopify:\/\/collections\/soldes","button_text_2":"DÉCOUVREZ","button_link_2":"shopify:\/\/collections\/soldes","button_style":"sf__btn-white","button_style_2":"sf__btn-primary","button_size":"sf__btn-small","show_footer":false,"footer_alignment":"end","footer_text":"New Collection","footer_button":"Shop Now","footer_link":""}}},"block_order":["slider_item_NWwyNw"],"settings":{"container":"container-fluid","slideshow_height":"adapt","show_overlay":false,"dots_position":"bottom","dots_color":"light","show_dots":false,"show_arrows":false,"autorotate":false,"autorotate_speed":6,"use_content_above":true,"custom_class":"","animations":"inherit"}},"5fafe524-a6cc-4cdc-bd16-c046f3843530":{"type":"collection-list","blocks":{"0864a174-2c2a-4a83-b9fe-051347b69f29":{"type":"collection_block","settings":{"collection":"manteau-blouson-femme","title":"Les Manteaux","sub_title":"","color_schema":"white","card_design":"default","text_design":"show","item_image":"shopify:\/\/shop_images\/ABRIGOS_f3ce3a86-e0fb-4306-844f-87aa39e5c9ba.png"}},"44c202ea-bb8c-4dca-95f7-839833b8b3ef":{"type":"collection_block","settings":{"collection":"pull-homme","title":"Les Pulls","sub_title":"","color_schema":"white","card_design":"default","text_design":"show","item_image":"shopify:\/\/shop_images\/SUETERES_ec866ab8-87df-47af-b7d7-82539321399f.png"}},"87c537e9-87c6-44a6-90a2-ddf9a39591cb":{"type":"collection_block","settings":{"collection":"accessoires","title":"Les Accessoires","sub_title":"","color_schema":"white","card_design":"default","text_design":"show","item_image":"shopify:\/\/shop_images\/ACCESORIOS_03edaf01-e2b0-4fa4-bc85-0402a05df422.png"}},"930ea53a-a8fe-4f41-b6fe-b9cdc311d756":{"type":"collection_block","settings":{"collection":"poncho-pull-femme","title":"Les Ponchos","sub_title":"","color_schema":"white","card_design":"default","text_design":"show","item_image":"shopify:\/\/shop_images\/PONCHOS_a300fcba-9412-4835-a4d5-d2324aff0ca5.png"}},"230d1fd5-e4c0-418d-901f-c30019be9da2":{"type":"collection_block","settings":{"collection":"robe-femme","title":"Les Robes","sub_title":"","color_schema":"white","card_design":"default","text_design":"show","item_image":"shopify:\/\/shop_images\/VESTIDOS_84b65ee6-68c9-4151-9f45-2827955ebb36.png"}},"101f31e5-bb0b-4308-b5a1-4a6bc952041c":{"type":"collection_block","settings":{"collection":"gilet-homme","title":"Les Gilets","sub_title":"","color_schema":"white","card_design":"default","text_design":"show","item_image":"shopify:\/\/shop_images\/VEST_19b52097-1e5b-4d90-aeb2-9a703b1c5c6f.png"}},"d07594e0-953f-4cfc-a6db-860bebf3c273":{"type":"collection_block","disabled":true,"settings":{"collection":"plaid-interieur","title":"Plaids","sub_title":"","color_schema":"white","card_design":"default","text_design":"show","item_image":"shopify:\/\/shop_images\/M20434DP0100XXC0009-KUNA_1-2023_1.png"}},"template--20183715250483__5fafe524-a6cc-4cdc-bd16-c046f3843530-collection_block-1":{"type":"collection_block","disabled":true,"settings":{"collection":"sueteres","title":"Pull","sub_title":"","color_schema":"white","card_design":"default","text_design":"show","item_image":"shopify:\/\/shop_images\/A10X572P0000XXC0003-VECCO-2022_1_f989447b-e38d-4093-a284-d035190a0cee.jpg"}}},"block_order":["0864a174-2c2a-4a83-b9fe-051347b69f29","44c202ea-bb8c-4dca-95f7-839833b8b3ef","87c537e9-87c6-44a6-90a2-ddf9a39591cb","930ea53a-a8fe-4f41-b6fe-b9cdc311d756","230d1fd5-e4c0-418d-901f-c30019be9da2","101f31e5-bb0b-4308-b5a1-4a6bc952041c","d07594e0-953f-4cfc-a6db-860bebf3c273","template--20183715250483__5fafe524-a6cc-4cdc-bd16-c046f3843530-collection_block-1"],"settings":{"heading":"","subheading":"","description":"","header_alignment":"center","container":"w-full","background_color":"#e7e7e7","layout":"grid","expanded":true,"card_style":"standard","text_alignment":"center","hover_effect":"scaling-down","show_product_count":false,"count_inline_title":false,"image_rounded":false,"items_per_row":6,"item_gap":0,"enable_slider":false,"show_pagination":false,"show_navigation":false,"autorotate":false,"autorotate_speed":5,"mobile_disable_slider":false,"use_scroll_mobile":true,"mobile_gap":10,"hidden_slide_control_mobile":false,"padding_top":0,"padding_bottom":60,"remove_margin":false,"custom_class":"","animations":"inherit"}},"bb029fb2-9618-433f-b8e6-77e9741d678a":{"type":"featured-collection","disabled":true,"settings":{"heading":"","subheading":"","description":"","header_alignment":"left","container_type":"boxed","container":"container-fluid","background_color":"rgba(0,0,0,0)","collection":"nos-favoris","enable_flashsale":false,"show_countdown":false,"product_to_show":8,"items_per_row":4,"item_gap":30,"pcard_layout":"","pcard_image_ratio":"3\/4","show_vendor":false,"hide_title":false,"enable_slider":true,"show_pagination":false,"show_navigation":false,"button_type":"link","button_text":"","button_style":"sf__btn-primary","button_size":"","infinite_load":false,"max_page_load":3,"mobile_disable_slider":false,"use_scroll_mobile":true,"item_gap_mobile":2,"padding_top":60,"padding_bottom":60,"custom_class":"","animations":"inherit"}},"custom_content_Cq79gh":{"type":"custom-content","blocks":{"lookbook_EFmCCY":{"type":"lookbook","settings":{"width":"33%","image":"shopify:\/\/shop_images\/SECCION-TRIADA-1_67639ee7-3fba-4282-8e28-f7170e9a872c.jpg","top_1":62,"left_1":52,"product_1":"vestido-uresti-de-algodon-color-lacre-g80-v929-p0000-t1-a0111","top_2":26,"left_2":50,"product_2":"","top_3":61,"left_3":48,"product_3":"","top_4":0,"left_4":0,"product_4":"","top_5":20,"left_5":0,"product_5":"","block_custom_class":"","animations":"inherit"}},"lookbook_wYgKPK":{"type":"lookbook","settings":{"width":"33%","image":"shopify:\/\/shop_images\/SECCION-TRIADA-2_c041fd39-4c4e-41c9-91c3-bad1f4d81d0a.jpg","top_1":42,"left_1":38,"product_1":"vestido-yingyang-de-algodon-color-lazuli-g80-z618-p0000-h5-h0097","top_2":29,"left_2":55,"product_2":"su-ter-yoel-de-algodon-color-lazuli-a80-z381-p0000-h5-h0097","top_3":61,"left_3":48,"product_3":"","top_4":0,"left_4":0,"product_4":"","top_5":20,"left_5":0,"product_5":"","block_custom_class":"","animations":"inherit"}},"lookbook_6AMDHg":{"type":"lookbook","settings":{"width":"33%","image":"shopify:\/\/shop_images\/SECCION-TRIADA-3_dd88a936-53cb-4a12-ac7b-8d1363e0014d.jpg","top_1":43,"left_1":49,"product_1":"su-ter-ublot-de-algodon-color-princess-a80-v944-p0000-h1-h0060","top_2":26,"left_2":50,"product_2":"","top_3":61,"left_3":48,"product_3":"","top_4":0,"left_4":0,"product_4":"","top_5":20,"left_5":0,"product_5":"","block_custom_class":"","animations":"inherit"}},"lookbook_R7xfWP":{"type":"lookbook","disabled":true,"settings":{"width":"33%","image":"shopify:\/\/shop_images\/KUNA_PACOMARCA_31.01.243370_r.jpg","top_1":60,"left_1":39,"product_1":"c-rdigan-yacomo-de-baby-alpaca-color-antracite-b10-y961-p0000-xxc0004","top_2":26,"left_2":50,"product_2":"","top_3":61,"left_3":48,"product_3":"","top_4":0,"left_4":0,"product_4":"","top_5":20,"left_5":0,"product_5":"","block_custom_class":"","animations":"inherit"}}},"block_order":["lookbook_EFmCCY","lookbook_wYgKPK","lookbook_6AMDHg","lookbook_R7xfWP"],"settings":{"heading":"","subheading":"","description":"","header_alignment":"center","container":"w-full","background_color":"","gap":0,"use_scroll_mobile":false,"gap_mobile":0,"padding_top":0,"padding_bottom":0,"custom_class":""}},"16225316461d1cff80":{"type":"collection-list","blocks":{"09179638-f984-4124-95e4-ae02c485200e":{"type":"collection_video","disabled":true,"settings":{"collection":"travesia-fw2023","title":"Suéteres","sub_title":"","color_schema":"black","card_design":"boxed","item_video":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/eb9cd14d089a4cfd906e9f0e39a08171.mp4","item_video_poster":"shopify:\/\/shop_images\/26.webp"}},"16225316461d1cff80-2":{"type":"collection_block","settings":{"collection":"manteau-blouson-femme","title":"MANTEAUX & VESTES","sub_title":"DÉCOUVREZ KUNA","color_schema":"black","card_design":"boxed","text_design":"show","item_image":"shopify:\/\/shop_images\/ABRIGOS_463a2313-be8c-46f1-8088-62c9a50cd00c.jpg"}},"29fcf576-3598-45ab-995d-2cde331706c0":{"type":"collection_block","settings":{"collection":"pull-homme","title":"PULLS","sub_title":"DE FILS KUNA","color_schema":"black","card_design":"boxed","text_design":"show","item_image":"shopify:\/\/shop_images\/SUETERES_5b977706-603d-4832-80ac-37551d1ebd6b.jpg"}},"16225316461d1cff80-1":{"type":"collection_block","settings":{"collection":"accessoires","title":"ACCESSOIRES","sub_title":"FINES FIBRES D’ALPAGA","color_schema":"black","card_design":"boxed","text_design":"show","item_image":"shopify:\/\/shop_images\/ACCESORIOS_a81ed335-7996-4c24-8589-9bc5add45e2e.jpg"}}},"block_order":["09179638-f984-4124-95e4-ae02c485200e","16225316461d1cff80-2","29fcf576-3598-45ab-995d-2cde331706c0","16225316461d1cff80-1"],"disabled":true,"settings":{"heading":"","subheading":"","description":"","header_alignment":"left","container":"container-fluid","background_color":"","layout":"grid","expanded":true,"card_style":"inside","text_alignment":"left","hover_effect":"none","show_product_count":false,"count_inline_title":false,"image_rounded":false,"items_per_row":3,"item_gap":20,"enable_slider":true,"show_pagination":false,"show_navigation":false,"autorotate":false,"autorotate_speed":4,"mobile_disable_slider":false,"use_scroll_mobile":true,"mobile_gap":2,"hidden_slide_control_mobile":true,"padding_top":60,"padding_bottom":60,"remove_margin":true,"custom_class":"","animations":"inherit"}},"ab3f72df-939e-44ee-956f-26e9cad2f194":{"type":"custom-content","blocks":{"9fb685ed-6e1f-4553-86f7-477114b71614":{"type":"image_card","settings":{"width":"50%","content_position":"bottom_center","content_alignment":"center","text_size":"medium","text_color":"white","image_type":"background","image":"shopify:\/\/shop_images\/SECCION-4-PRODUCTOS-PER-1.jpg","link":"shopify:\/\/collections\/collection-alpaca-lovers","title":"ALPACA LOVERS","subtitle":"Fall Winter 2024","button_label":"Voir plus","button_style":"sf__btn-white","button_size":"sf__btn-small","button_fixed":false,"use_content_above":true,"block_custom_class":"","animations":"inherit"}},"91590912-f2f4-4567-b983-3708f37b33ca":{"type":"product","disabled":true,"settings":{"product":"su-ter-cordillera-azul-de-baby-alpaca-color-black","width":"25%","alignment":"center","block_custom_class":"","animations":"inherit"}},"601e9e98-27af-4c21-a9cb-a20cee0eb2fb":{"type":"product","disabled":true,"settings":{"product":"su-ter-lagunillas-de-baby-alpaca-color-antracite","width":"25%","alignment":"center","block_custom_class":"","animations":"inherit"}},"9aeddee9-f5db-4dad-8728-cae44ef5fdcd":{"type":"product_grid","settings":{"product_1":"abrigo-yared-de-lana-color-blackforest-h501934-p0000-m4-a0002","product_2":"mascarilla-ulan-de-algod-n-color-azul-ecru","product_3":"guantes-wolyn-de-baby-alpaca-color-orchid","product_4":"guantes-vibeke-de-baby-alpaca-color-avocado","width":"50%","alignment":"center","block_custom_class":"","animations":"inherit"}}},"block_order":["9fb685ed-6e1f-4553-86f7-477114b71614","91590912-f2f4-4567-b983-3708f37b33ca","601e9e98-27af-4c21-a9cb-a20cee0eb2fb","9aeddee9-f5db-4dad-8728-cae44ef5fdcd"],"settings":{"heading":"","subheading":"","description":"","header_alignment":"center","container":"w-full","background_color":"","gap":0,"use_scroll_mobile":false,"gap_mobile":16,"padding_top":0,"padding_bottom":0,"custom_class":""}},"7ea56e8d-5794-4708-8812-8ee9604a3a21":{"type":"custom-content","blocks":{"ffae8d9f-57c6-41de-a4c4-76ecb2608bda":{"type":"text_card","settings":{"title":"Kuna","subheading":"","text":"<p>Es más que un nombre, es el encuentro de dos épocas y mundos diferentes: El pasado, a través de la inspiración tomada de las ricas expresiones estéticas y técnicas de las antiguas culturas andinas; y el presente, a través de las manos de diseñadores altamente calificados, que seleccionan cada color y crean cada diseño para dar nueva vida a nuestras raíces.<\/p>","width":"100%","alignment":"center","align_text":"center","text_size":"medium","text_color":"white","background_color":"rgba(0,0,0,0)","block_custom_class":"","animations":"inherit"}}},"block_order":["ffae8d9f-57c6-41de-a4c4-76ecb2608bda"],"disabled":true,"custom_css":[],"settings":{"heading":"","subheading":"","description":"","header_alignment":"center","container":"container-fluid","background_color":"#bfbfbf","gap":0,"use_scroll_mobile":false,"gap_mobile":16,"padding_top":60,"padding_bottom":60,"custom_class":"sf-custom--collection-banner"}},"c8d605b9-3094-47d8-bb6c-cff8f5f5d3f4":{"type":"image-with-text-1","blocks":{"template--20183715250483__c8d605b9-3094-47d8-bb6c-cff8f5f5d3f4-item-3":{"type":"item","settings":{"content_position":"bottom_center","content_alignment":"center","text_size":"medium","text_color":"white","image":"shopify:\/\/shop_images\/Portada-Categoria-Travesia_mobile.jpg","link":"","title":"Image card","subtitle":"","button_label":"Shop now","button_style":"sf__btn-white","button_size":"sf__btn-large","button_fixed":false}},"template--20183715250483__c8d605b9-3094-47d8-bb6c-cff8f5f5d3f4-item-4":{"type":"item","settings":{"content_position":"bottom_center","content_alignment":"center","text_size":"medium","text_color":"white","image":"shopify:\/\/shop_images\/Portada-Categoria-Travesia_mobile.jpg","link":"","title":"Image card","subtitle":"","button_label":"Shop now","button_style":"sf__btn-white","button_size":"","button_fixed":false}},"template--20183715250483__c8d605b9-3094-47d8-bb6c-cff8f5f5d3f4-item-5":{"type":"item","settings":{"content_position":"bottom_center","content_alignment":"center","text_size":"medium","text_color":"white","image":"shopify:\/\/shop_images\/Portada-Categoria-Travesia_mobile.jpg","link":"","title":"Image card","subtitle":"","button_label":"Shop now","button_style":"sf__btn-white","button_size":"","button_fixed":false}}},"block_order":["template--20183715250483__c8d605b9-3094-47d8-bb6c-cff8f5f5d3f4-item-3","template--20183715250483__c8d605b9-3094-47d8-bb6c-cff8f5f5d3f4-item-4","template--20183715250483__c8d605b9-3094-47d8-bb6c-cff8f5f5d3f4-item-5"],"disabled":true,"settings":{"heading":"","subheading":"","description":"","header_alignment":"center","container":"container-fluid","background_color":"rgba(0,0,0,0)","layout":"layout_2","gap":30,"use_scroll_mobile":true,"mobile_gap":10,"padding_top":0,"padding_bottom":30,"custom_class":"","animations":"inherit"}},"ff1d4bc4-24fe-47c4-8c64-623e832974fc":{"type":"newsletter","settings":{"container":"container","background_color":"#f9f9f9","form_layout":"vertical","form_design":"1","heading":"<span class=\"font-bold\" style=\"font-size: 20px;\">NEWSLETTER<\/span>","description":"<p>Abonnez-vous à notre newsletter pour recevoir des contenus, des offres et des services exclusifs, ainsi qu'un accès prioritaire à nos produits.<\/p>","email_placeholder":"entrer votre email","submit_button":"Inscrivez-vous","text_color":"black","show_icon":false,"icon_img_width":"30","show_agreement":true,"padding_top":60,"padding_bottom":60,"custom_class":"","animations":"inherit"}},"54f46f76-4415-4867-b6bd-37dd560214f3":{"type":"custom-content","blocks":{"template--20183715250483__54f46f76-4415-4867-b6bd-37dd560214f3-image-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/483A8250_3.jpg","txt":"","link":"","width":"50%","alignment":"center","block_custom_class":"","animations":"inherit"}},"template--20183715250483__54f46f76-4415-4867-b6bd-37dd560214f3-text-1":{"type":"text","settings":{"title":"","subheading":"","text":"<ul><li><strong>Kuna Geneva:<\/strong><br\/>16 Rue de la Corraterie, 1204 Geneva, Switzerland.<\/li><\/ul>","width":"25%","alignment":"center","align_text":"left","text_size":"medium","text_color":"black","button_label":"","button_link":"","button_style":"sf__btn-primary","button_size":"","block_custom_class":"","animations":"inherit"}},"2b3c641a-83ae-44de-bbf7-85ac93f670b4":{"type":"text","settings":{"title":"","subheading":"","text":"<ul><li>+41 22 570 10 77<br\/><\/li><li>kuna@alphatops.ch<\/li><\/ul>","width":"25%","alignment":"center","align_text":"left","text_size":"medium","text_color":"black","button_label":"","button_link":"","button_style":"sf__btn-primary","button_size":"","block_custom_class":"","animations":"inherit"}}},"block_order":["template--20183715250483__54f46f76-4415-4867-b6bd-37dd560214f3-image-1","template--20183715250483__54f46f76-4415-4867-b6bd-37dd560214f3-text-1","2b3c641a-83ae-44de-bbf7-85ac93f670b4"],"settings":{"heading":"","subheading":"","description":"","header_alignment":"center","container":"w-full","background_color":"#000000","gap":15,"use_scroll_mobile":false,"gap_mobile":30,"padding_top":0,"padding_bottom":60,"custom_class":""}}},"order":["c72959ad-9620-4e94-ae33-1bde908e9701","1621243260e1af0c20","slider_dCDaQB","5fafe524-a6cc-4cdc-bd16-c046f3843530","bb029fb2-9618-433f-b8e6-77e9741d678a","custom_content_Cq79gh","16225316461d1cff80","ab3f72df-939e-44ee-956f-26e9cad2f194","7ea56e8d-5794-4708-8812-8ee9604a3a21","c8d605b9-3094-47d8-bb6c-cff8f5f5d3f4","ff1d4bc4-24fe-47c4-8c64-623e832974fc","54f46f76-4415-4867-b6bd-37dd560214f3"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "c72959ad-9620-4e94-ae33-1bde908e9701": {
+      "type": "custom-code",
+      "settings": {
+        "custom_css": "m-handpicked-products { display: block; }\n.sf-home__iconbox .section-my {\n  padding-top: 45px;\n  padding-bottom: 45px;\n  margin-bottom: 0;\n  margin-top: 0;\n}\n.sf-home__iconbox {\n  border-top: 1px solid #eee;\n}\n.sf-home__iconbox .sf-icon-box__text h3 {\n  line-height: 26px;\n  font-size: 20px;\n  font-weight: 500;\n}\n.sf-custom-text--large .prose {\n  color: var(--color-heading-text);\n}\n.sf-custom--collection-banner .image-card--button-fixed .sf__btn-fixed {\n  border-color: #d2d2d2;\n}\n  .sf-home__collection-list .collection-card__info h3 a {\n    font-size: 24px;\nline-height: 1.4;\n    font-weight: 400;\n  }\n  .sf-home__collection-list .collection-card__info p {\n    font-size: 16px;\n    line-height: 20px;\n  }\n  .sf-home__iconbox .sf-icon-box__text h3 {\n    font-size: 18px;\n    margin-bottom: 2px;\n  }\n.sf-video--custom-content .sf-video__wrapper {\n  --aspect-ratio: 82/105 !important;\n}\n.image__card-subheading,\n.content__subheading {\n  font-weight: 600;\n}\n.sf-custom--collection-banner .image__card-heading {\n  line-height: 1.3;\n}\n.sf-handpicked-products__header .content__heading,\n.sf-custom-text--large .content__heading,\n.sf-custom--collection-banner .image__card-heading {\n  font-size: 36px;\n}\n.image-card--button-fixed .sf__btn-fixed {\n  padding-bottom: 20px;\n}\n@media (min-width: 768px) {\n  .sf-custom--collection-banner .image__card-subheading,\n  .sf-handpicked-products__header .content__subheading {\n    font-size: 20px;\n  }\n  .sf-custom__handpicked-products {\n    padding-bottom: 30px;\n  }\n  .image-card--button-fixed .sf__btn-fixed {\n    padding-bottom: 40px;\n    padding-top: 24px;\n  }\n}\n@media (min-width: 1024px) {\n  .sf__footer-block-newsletter .sf__footer-block-title {\n    font-size: 28px;\n    font-weight: 400;\n  }\n  .sf-custom__handpicked-products {\n    padding-bottom: 0;\n    padding-right: 50px;\n  }\n  .sf-handpicked-products__header .content__heading,\n  .sf-custom-text--large .content__heading,\n  .sf-custom--collection-banner .image__card-heading {\n    font-size: 48px;\n  }\n  .sf-custom--collection-banner .image-card__content {\n    padding-top: 70px;\n  }\n}\n@media (min-width: 1280px) {\n  .sf-handpicked-products__header .content__heading,\n  .sf-custom-text--large .content__heading,\n  .sf-custom--collection-banner .image__card-heading {\n    font-size: 60px;\n  }\n  .sf-custom__handpicked-products {\n    padding-bottom: 0;\n    padding-right: 100px;\n  }\n}\n@media (min-width: 1536px) {\n  .sf-home__slideshow .slide__block-title {\n    font-size: 70px;\n    line-height: 80px;\n  }\n  .sf-custom-text--large .prose {\n    font-size: 32px;\n    line-height: 1.4;\n  }\n  .sf-custom--collection-banner .image-card__content {\n    padding-top: 110px;\n  }\n}\n@media (max-width: 767px) {\n  .sf-icon-box--large .sf-icon-box h3{\n    font-size: 20px;\n  }\n}\n@media (max-width: 576px) {\n  .sf-home__slideshow a.sf__mobile-button,\n  .sf-home__product-tab .sf__btn-primary,\n  .sf-home__product-tab .sf__btn-secondary {\n    width: 100%;\n  }\n}"
+      }
+    },
+    "1621243260e1af0c20": {
+      "type": "slider",
+      "blocks": {
+        "bb3926b0-2131-446d-a4d0-ba3a666a7b16": {
+          "type": "slider_item",
+          "settings": {
+            "mesVisible": 1,
+            "diaVisible": 1,
+            "horaVisible": 1,
+            "mesInvisible": 12,
+            "diaInvisible": 31,
+            "horaInvisible": 23,
+            "video": "https://cdn.shopify.com/videos/c/o/v/7890d90f235841dab9c28821c9b553f3.mp4",
+            "video_mb": "https://cdn.shopify.com/videos/c/o/v/6d609497e3034f6eadf2bbc2dc05d69e.mp4",
+            "content_in_container": false,
+            "content_position": "center bottom",
+            "text_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "subheading": "Closing a chapter, continuing a legacy",
+            "title": "UP TO 70% OFF | While stocks last",
+            "description": "",
+            "image_link": "shopify://collections/soldes",
+            "button_text": "DÉCOUVREZ",
+            "button_link": "shopify://collections/soldes",
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_style": "sf__btn-white",
+            "button_style_2": "sf__btn-primary",
+            "button_size": "sf__btn-small",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "VER COLECCIÓN",
+            "footer_link": ""
+          }
+        },
+        "slider_item_frc3Ki": {
+          "type": "slider_item",
+          "disabled": true,
+          "settings": {
+            "mesVisible": 1,
+            "diaVisible": 1,
+            "horaVisible": 1,
+            "mesInvisible": 12,
+            "diaInvisible": 31,
+            "horaInvisible": 23,
+            "video": "https://cdn.shopify.com/videos/c/o/v/12ee8bf5b8eb4ec78c970b5655539ce2.mp4",
+            "video_mb": "https://cdn.shopify.com/videos/c/o/v/7286a863b6774579a3b11b03258a044a.mp4",
+            "content_in_container": false,
+            "content_position": "center bottom",
+            "text_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "subheading": "The Gold of the Andes",
+            "title": "VICUNA 2025",
+            "description": "",
+            "image_link": "shopify://collections/soldes",
+            "button_text": "DÉCOUVREZ",
+            "button_link": "shopify://collections/soldes",
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_style": "sf__btn-white",
+            "button_style_2": "sf__btn-primary",
+            "button_size": "sf__btn-small",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "VER COLECCIÓN",
+            "footer_link": ""
+          }
+        },
+        "6599565e-9a96-43e3-b2f6-6be4c3ddec16": {
+          "type": "slider_item",
+          "disabled": true,
+          "settings": {
+            "mesVisible": 3,
+            "diaVisible": 1,
+            "horaVisible": 0,
+            "mesInvisible": 5,
+            "diaInvisible": 1,
+            "horaInvisible": 0,
+            "background": "shopify://shop_images/PORTADA-MAR-DESKTOP-KUNA-SUIZA-2.jpg",
+            "mb_background": "shopify://shop_images/PORTADA-MAR-RESPONSIVE-KUNA-SUIZA-2.jpg",
+            "video": "",
+            "video_mb": "",
+            "content_in_container": false,
+            "content_position": "center bottom",
+            "text_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "subheading": "Tout à -50%",
+            "title": "SPRING SALES",
+            "description": "",
+            "image_link": "shopify://collections/soldes",
+            "button_text": "DÉCOUVREZ",
+            "button_link": "shopify://collections/soldes",
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_style": "sf__btn-white",
+            "button_style_2": "sf__btn-primary",
+            "button_size": "sf__btn-small",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "",
+            "footer_button": "",
+            "footer_link": ""
+          }
+        },
+        "d489889e-3752-497d-9c18-955c8224628f": {
+          "type": "slider_item",
+          "disabled": true,
+          "settings": {
+            "mesVisible": 3,
+            "diaVisible": 1,
+            "horaVisible": 0,
+            "mesInvisible": 5,
+            "diaInvisible": 1,
+            "horaInvisible": 0,
+            "background": "shopify://shop_images/PORTADA-MAR-DESKTOP-KUNA-SUIZA-1.jpg",
+            "mb_background": "shopify://shop_images/PORTADA-MAR-RESPONSIVE-KUNA-SUIZA-1.jpg",
+            "video": "",
+            "video_mb": "",
+            "content_in_container": true,
+            "content_position": "center bottom",
+            "text_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "subheading": "Jusqu'à -30%",
+            "title": "VICUÑA",
+            "description": "",
+            "image_link": "shopify://collections/soldes",
+            "button_text": "DÉCOUVREZ",
+            "button_link": "shopify://collections/soldes",
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_style": "sf__btn-white",
+            "button_style_2": "sf__btn-primary",
+            "button_size": "sf__btn-small",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        },
+        "slider_item_pHqq3P": {
+          "type": "slider_item",
+          "disabled": true,
+          "settings": {
+            "mesVisible": 1,
+            "diaVisible": 1,
+            "horaVisible": 0,
+            "mesInvisible": 12,
+            "diaInvisible": 31,
+            "horaInvisible": 23,
+            "video": "https://cdn.shopify.com/videos/c/o/v/1a3d36a0d9dd41ccbd1f39395fe52776.mp4",
+            "video_mb": "https://cdn.shopify.com/videos/c/o/v/06f39ac0690840ad9f2a523fa079cff7.mp4",
+            "content_in_container": true,
+            "content_position": "center bottom",
+            "text_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "subheading": "Fall Winter 24",
+            "title": "ALPACA LOVERS",
+            "description": "",
+            "image_link": "shopify://collections/collection-alpaca-lovers",
+            "button_text": "DÉCOUVREZ",
+            "button_link": "shopify://collections/collection-alpaca-lovers",
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_style": "sf__btn-white",
+            "button_style_2": "sf__btn-primary",
+            "button_size": "sf__btn-small",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "The ReCotton Tee",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        },
+        "e818ec6b-01b4-4829-afa8-dd230860a519": {
+          "type": "slider_item",
+          "disabled": true,
+          "settings": {
+            "mesVisible": 1,
+            "diaVisible": 1,
+            "horaVisible": 1,
+            "mesInvisible": 1,
+            "diaInvisible": 29,
+            "horaInvisible": 0,
+            "video": "https://cdn.shopify.com/videos/c/o/v/678a749abaaf4f7f9f9742d85951270e.mp4",
+            "video_mb": "https://cdn.shopify.com/videos/c/o/v/f5eaa4903e37474caec8bf27eb5835d4.mp4",
+            "content_in_container": true,
+            "content_position": "center bottom",
+            "text_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "subheading": "",
+            "title": "CAMEL STORY",
+            "description": "",
+            "image_link": "shopify://collections/collection-camel-story",
+            "button_text": "DÉCOUVREZ",
+            "button_link": "shopify://collections/collection-camel-story",
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_style": "sf__btn-white",
+            "button_style_2": "sf__btn-primary",
+            "button_size": "sf__btn-small",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "The ReCotton Tee",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "bb3926b0-2131-446d-a4d0-ba3a666a7b16",
+        "slider_item_frc3Ki",
+        "6599565e-9a96-43e3-b2f6-6be4c3ddec16",
+        "d489889e-3752-497d-9c18-955c8224628f",
+        "slider_item_pHqq3P",
+        "e818ec6b-01b4-4829-afa8-dd230860a519"
+      ],
+      "settings": {
+        "container": "w-full",
+        "slideshow_height": "fullscreen",
+        "show_overlay": false,
+        "dots_position": "bottom",
+        "dots_color": "light",
+        "show_dots": true,
+        "show_arrows": false,
+        "autorotate": true,
+        "autorotate_speed": 6,
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "slider_dCDaQB": {
+      "type": "slider",
+      "blocks": {
+        "slider_item_NWwyNw": {
+          "type": "slider_item",
+          "settings": {
+            "mesVisible": 1,
+            "diaVisible": 1,
+            "horaVisible": 1,
+            "mesInvisible": 12,
+            "diaInvisible": 31,
+            "horaInvisible": 23,
+            "background": "shopify://shop_images/ICONOS_ENG_DESKTOP_2.png",
+            "mb_background": "shopify://shop_images/ICONOS_ENG_CEL_3.png",
+            "video": "",
+            "video_mb": "",
+            "content_in_container": true,
+            "content_position": "center bottom",
+            "text_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "subheading": "",
+            "title": "",
+            "description": "",
+            "image_link": "shopify://collections/soldes",
+            "button_text": "",
+            "button_link": "shopify://collections/soldes",
+            "button_text_2": "DÉCOUVREZ",
+            "button_link_2": "shopify://collections/soldes",
+            "button_style": "sf__btn-white",
+            "button_style_2": "sf__btn-primary",
+            "button_size": "sf__btn-small",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slider_item_NWwyNw"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "slideshow_height": "adapt",
+        "show_overlay": false,
+        "dots_position": "bottom",
+        "dots_color": "light",
+        "show_dots": false,
+        "show_arrows": false,
+        "autorotate": false,
+        "autorotate_speed": 6,
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "5fafe524-a6cc-4cdc-bd16-c046f3843530": {
+      "type": "collection-list",
+      "blocks": {
+        "0864a174-2c2a-4a83-b9fe-051347b69f29": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "manteau-blouson-femme",
+            "title": "Les Manteaux",
+            "sub_title": "",
+            "color_schema": "white",
+            "card_design": "default",
+            "text_design": "show",
+            "item_image": "shopify://shop_images/ABRIGOS_f3ce3a86-e0fb-4306-844f-87aa39e5c9ba.png"
+          }
+        },
+        "44c202ea-bb8c-4dca-95f7-839833b8b3ef": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "pull-homme",
+            "title": "Les Pulls",
+            "sub_title": "",
+            "color_schema": "white",
+            "card_design": "default",
+            "text_design": "show",
+            "item_image": "shopify://shop_images/SUETERES_ec866ab8-87df-47af-b7d7-82539321399f.png"
+          }
+        },
+        "87c537e9-87c6-44a6-90a2-ddf9a39591cb": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "accessoires",
+            "title": "Les Accessoires",
+            "sub_title": "",
+            "color_schema": "white",
+            "card_design": "default",
+            "text_design": "show",
+            "item_image": "shopify://shop_images/ACCESORIOS_03edaf01-e2b0-4fa4-bc85-0402a05df422.png"
+          }
+        },
+        "930ea53a-a8fe-4f41-b6fe-b9cdc311d756": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "poncho-pull-femme",
+            "title": "Les Ponchos",
+            "sub_title": "",
+            "color_schema": "white",
+            "card_design": "default",
+            "text_design": "show",
+            "item_image": "shopify://shop_images/PONCHOS_a300fcba-9412-4835-a4d5-d2324aff0ca5.png"
+          }
+        },
+        "230d1fd5-e4c0-418d-901f-c30019be9da2": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "robe-femme",
+            "title": "Les Robes",
+            "sub_title": "",
+            "color_schema": "white",
+            "card_design": "default",
+            "text_design": "show",
+            "item_image": "shopify://shop_images/VESTIDOS_84b65ee6-68c9-4151-9f45-2827955ebb36.png"
+          }
+        },
+        "101f31e5-bb0b-4308-b5a1-4a6bc952041c": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "gilet-homme",
+            "title": "Les Gilets",
+            "sub_title": "",
+            "color_schema": "white",
+            "card_design": "default",
+            "text_design": "show",
+            "item_image": "shopify://shop_images/VEST_19b52097-1e5b-4d90-aeb2-9a703b1c5c6f.png"
+          }
+        },
+        "d07594e0-953f-4cfc-a6db-860bebf3c273": {
+          "type": "collection_block",
+          "disabled": true,
+          "settings": {
+            "collection": "plaid-interieur",
+            "title": "Plaids",
+            "sub_title": "",
+            "color_schema": "white",
+            "card_design": "default",
+            "text_design": "show",
+            "item_image": "shopify://shop_images/M20434DP0100XXC0009-KUNA_1-2023_1.png"
+          }
+        },
+        "template--20183715250483__5fafe524-a6cc-4cdc-bd16-c046f3843530-collection_block-1": {
+          "type": "collection_block",
+          "disabled": true,
+          "settings": {
+            "collection": "sueteres",
+            "title": "Pull",
+            "sub_title": "",
+            "color_schema": "white",
+            "card_design": "default",
+            "text_design": "show",
+            "item_image": "shopify://shop_images/A10X572P0000XXC0003-VECCO-2022_1_f989447b-e38d-4093-a284-d035190a0cee.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "0864a174-2c2a-4a83-b9fe-051347b69f29",
+        "44c202ea-bb8c-4dca-95f7-839833b8b3ef",
+        "87c537e9-87c6-44a6-90a2-ddf9a39591cb",
+        "930ea53a-a8fe-4f41-b6fe-b9cdc311d756",
+        "230d1fd5-e4c0-418d-901f-c30019be9da2",
+        "101f31e5-bb0b-4308-b5a1-4a6bc952041c",
+        "d07594e0-953f-4cfc-a6db-860bebf3c273",
+        "template--20183715250483__5fafe524-a6cc-4cdc-bd16-c046f3843530-collection_block-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "w-full",
+        "background_color": "#e7e7e7",
+        "layout": "grid",
+        "expanded": true,
+        "card_style": "standard",
+        "text_alignment": "center",
+        "hover_effect": "scaling-down",
+        "show_product_count": false,
+        "count_inline_title": false,
+        "image_rounded": false,
+        "items_per_row": 6,
+        "item_gap": 0,
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "mobile_gap": 10,
+        "hidden_slide_control_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "remove_margin": false,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "bb029fb2-9618-433f-b8e6-77e9741d678a": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "left",
+        "container_type": "boxed",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "collection": "nos-favoris",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 8,
+        "items_per_row": 4,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "3/4",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": false,
+        "button_type": "link",
+        "button_text": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 2,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_Cq79gh": {
+      "type": "custom-content",
+      "blocks": {
+        "lookbook_EFmCCY": {
+          "type": "lookbook",
+          "settings": {
+            "width": "33%",
+            "image": "shopify://shop_images/SECCION-TRIADA-1_67639ee7-3fba-4282-8e28-f7170e9a872c.jpg",
+            "top_1": 62,
+            "left_1": 52,
+            "product_1": "vestido-uresti-de-algodon-color-lacre-g80-v929-p0000-t1-a0111",
+            "top_2": 26,
+            "left_2": 50,
+            "product_2": "",
+            "top_3": 61,
+            "left_3": 48,
+            "product_3": "",
+            "top_4": 0,
+            "left_4": 0,
+            "product_4": "",
+            "top_5": 20,
+            "left_5": 0,
+            "product_5": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "lookbook_wYgKPK": {
+          "type": "lookbook",
+          "settings": {
+            "width": "33%",
+            "image": "shopify://shop_images/SECCION-TRIADA-2_c041fd39-4c4e-41c9-91c3-bad1f4d81d0a.jpg",
+            "top_1": 42,
+            "left_1": 38,
+            "product_1": "vestido-yingyang-de-algodon-color-lazuli-g80-z618-p0000-h5-h0097",
+            "top_2": 29,
+            "left_2": 55,
+            "product_2": "su-ter-yoel-de-algodon-color-lazuli-a80-z381-p0000-h5-h0097",
+            "top_3": 61,
+            "left_3": 48,
+            "product_3": "",
+            "top_4": 0,
+            "left_4": 0,
+            "product_4": "",
+            "top_5": 20,
+            "left_5": 0,
+            "product_5": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "lookbook_6AMDHg": {
+          "type": "lookbook",
+          "settings": {
+            "width": "33%",
+            "image": "shopify://shop_images/SECCION-TRIADA-3_dd88a936-53cb-4a12-ac7b-8d1363e0014d.jpg",
+            "top_1": 43,
+            "left_1": 49,
+            "product_1": "su-ter-ublot-de-algodon-color-princess-a80-v944-p0000-h1-h0060",
+            "top_2": 26,
+            "left_2": 50,
+            "product_2": "",
+            "top_3": 61,
+            "left_3": 48,
+            "product_3": "",
+            "top_4": 0,
+            "left_4": 0,
+            "product_4": "",
+            "top_5": 20,
+            "left_5": 0,
+            "product_5": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "lookbook_R7xfWP": {
+          "type": "lookbook",
+          "disabled": true,
+          "settings": {
+            "width": "33%",
+            "image": "shopify://shop_images/KUNA_PACOMARCA_31.01.243370_r.jpg",
+            "top_1": 60,
+            "left_1": 39,
+            "product_1": "c-rdigan-yacomo-de-baby-alpaca-color-antracite-b10-y961-p0000-xxc0004",
+            "top_2": 26,
+            "left_2": 50,
+            "product_2": "",
+            "top_3": 61,
+            "left_3": 48,
+            "product_3": "",
+            "top_4": 0,
+            "left_4": 0,
+            "product_4": "",
+            "top_5": 20,
+            "left_5": 0,
+            "product_5": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "lookbook_EFmCCY",
+        "lookbook_wYgKPK",
+        "lookbook_6AMDHg",
+        "lookbook_R7xfWP"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "w-full",
+        "background_color": "",
+        "gap": 0,
+        "use_scroll_mobile": false,
+        "gap_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16225316461d1cff80": {
+      "type": "collection-list",
+      "blocks": {
+        "09179638-f984-4124-95e4-ae02c485200e": {
+          "type": "collection_video",
+          "disabled": true,
+          "settings": {
+            "collection": "travesia-fw2023",
+            "title": "Suéteres",
+            "sub_title": "",
+            "color_schema": "black",
+            "card_design": "boxed",
+            "item_video": "https://cdn.shopify.com/videos/c/o/v/eb9cd14d089a4cfd906e9f0e39a08171.mp4",
+            "item_video_poster": "shopify://shop_images/26.webp"
+          }
+        },
+        "16225316461d1cff80-2": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "manteau-blouson-femme",
+            "title": "MANTEAUX & VESTES",
+            "sub_title": "DÉCOUVREZ KUNA",
+            "color_schema": "black",
+            "card_design": "boxed",
+            "text_design": "show",
+            "item_image": "shopify://shop_images/ABRIGOS_463a2313-be8c-46f1-8088-62c9a50cd00c.jpg"
+          }
+        },
+        "29fcf576-3598-45ab-995d-2cde331706c0": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "pull-homme",
+            "title": "PULLS",
+            "sub_title": "DE FILS KUNA",
+            "color_schema": "black",
+            "card_design": "boxed",
+            "text_design": "show",
+            "item_image": "shopify://shop_images/SUETERES_5b977706-603d-4832-80ac-37551d1ebd6b.jpg"
+          }
+        },
+        "16225316461d1cff80-1": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "accessoires",
+            "title": "ACCESSOIRES",
+            "sub_title": "FINES FIBRES D’ALPAGA",
+            "color_schema": "black",
+            "card_design": "boxed",
+            "text_design": "show",
+            "item_image": "shopify://shop_images/ACCESORIOS_a81ed335-7996-4c24-8589-9bc5add45e2e.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "09179638-f984-4124-95e4-ae02c485200e",
+        "16225316461d1cff80-2",
+        "29fcf576-3598-45ab-995d-2cde331706c0",
+        "16225316461d1cff80-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "left",
+        "container": "container-fluid",
+        "background_color": "",
+        "layout": "grid",
+        "expanded": true,
+        "card_style": "inside",
+        "text_alignment": "left",
+        "hover_effect": "none",
+        "show_product_count": false,
+        "count_inline_title": false,
+        "image_rounded": false,
+        "items_per_row": 3,
+        "item_gap": 20,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": false,
+        "autorotate": false,
+        "autorotate_speed": 4,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "mobile_gap": 2,
+        "hidden_slide_control_mobile": true,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "remove_margin": true,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "ab3f72df-939e-44ee-956f-26e9cad2f194": {
+      "type": "custom-content",
+      "blocks": {
+        "9fb685ed-6e1f-4553-86f7-477114b71614": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image_type": "background",
+            "image": "shopify://shop_images/SECCION-4-PRODUCTOS-PER-1.jpg",
+            "link": "shopify://collections/collection-alpaca-lovers",
+            "title": "ALPACA LOVERS",
+            "subtitle": "Fall Winter 2024",
+            "button_label": "Voir plus",
+            "button_style": "sf__btn-white",
+            "button_size": "sf__btn-small",
+            "button_fixed": false,
+            "use_content_above": true,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "91590912-f2f4-4567-b983-3708f37b33ca": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "su-ter-cordillera-azul-de-baby-alpaca-color-black",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "601e9e98-27af-4c21-a9cb-a20cee0eb2fb": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "su-ter-lagunillas-de-baby-alpaca-color-antracite",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "9aeddee9-f5db-4dad-8728-cae44ef5fdcd": {
+          "type": "product_grid",
+          "settings": {
+            "product_1": "abrigo-yared-de-lana-color-blackforest-h501934-p0000-m4-a0002",
+            "product_2": "mascarilla-ulan-de-algod-n-color-azul-ecru",
+            "product_3": "guantes-wolyn-de-baby-alpaca-color-orchid",
+            "product_4": "guantes-vibeke-de-baby-alpaca-color-avocado",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "9fb685ed-6e1f-4553-86f7-477114b71614",
+        "91590912-f2f4-4567-b983-3708f37b33ca",
+        "601e9e98-27af-4c21-a9cb-a20cee0eb2fb",
+        "9aeddee9-f5db-4dad-8728-cae44ef5fdcd"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "w-full",
+        "background_color": "",
+        "gap": 0,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "7ea56e8d-5794-4708-8812-8ee9604a3a21": {
+      "type": "custom-content",
+      "blocks": {
+        "ffae8d9f-57c6-41de-a4c4-76ecb2608bda": {
+          "type": "text_card",
+          "settings": {
+            "title": "Kuna",
+            "subheading": "",
+            "text": "<p>Es más que un nombre, es el encuentro de dos épocas y mundos diferentes: El pasado, a través de la inspiración tomada de las ricas expresiones estéticas y técnicas de las antiguas culturas andinas; y el presente, a través de las manos de diseñadores altamente calificados, que seleccionan cada color y crean cada diseño para dar nueva vida a nuestras raíces.</p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "background_color": "rgba(0,0,0,0)",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "ffae8d9f-57c6-41de-a4c4-76ecb2608bda"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#bfbfbf",
+        "gap": 0,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "custom_class": "sf-custom--collection-banner"
+      }
+    },
+    "c8d605b9-3094-47d8-bb6c-cff8f5f5d3f4": {
+      "type": "image-with-text-1",
+      "blocks": {
+        "template--20183715250483__c8d605b9-3094-47d8-bb6c-cff8f5f5d3f4-item-3": {
+          "type": "item",
+          "settings": {
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify://shop_images/Portada-Categoria-Travesia_mobile.jpg",
+            "link": "",
+            "title": "Image card",
+            "subtitle": "",
+            "button_label": "Shop now",
+            "button_style": "sf__btn-white",
+            "button_size": "sf__btn-large",
+            "button_fixed": false
+          }
+        },
+        "template--20183715250483__c8d605b9-3094-47d8-bb6c-cff8f5f5d3f4-item-4": {
+          "type": "item",
+          "settings": {
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify://shop_images/Portada-Categoria-Travesia_mobile.jpg",
+            "link": "",
+            "title": "Image card",
+            "subtitle": "",
+            "button_label": "Shop now",
+            "button_style": "sf__btn-white",
+            "button_size": "",
+            "button_fixed": false
+          }
+        },
+        "template--20183715250483__c8d605b9-3094-47d8-bb6c-cff8f5f5d3f4-item-5": {
+          "type": "item",
+          "settings": {
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify://shop_images/Portada-Categoria-Travesia_mobile.jpg",
+            "link": "",
+            "title": "Image card",
+            "subtitle": "",
+            "button_label": "Shop now",
+            "button_style": "sf__btn-white",
+            "button_size": "",
+            "button_fixed": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20183715250483__c8d605b9-3094-47d8-bb6c-cff8f5f5d3f4-item-3",
+        "template--20183715250483__c8d605b9-3094-47d8-bb6c-cff8f5f5d3f4-item-4",
+        "template--20183715250483__c8d605b9-3094-47d8-bb6c-cff8f5f5d3f4-item-5"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "layout": "layout_2",
+        "gap": 30,
+        "use_scroll_mobile": true,
+        "mobile_gap": 10,
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "ff1d4bc4-24fe-47c4-8c64-623e832974fc": {
+      "type": "newsletter",
+      "settings": {
+        "container": "container",
+        "background_color": "#f9f9f9",
+        "form_layout": "vertical",
+        "form_design": "1",
+        "heading": "<span class=\"font-bold\" style=\"font-size: 20px;\">NEWSLETTER</span>",
+        "description": "<p>Abonnez-vous à notre newsletter pour recevoir des contenus, des offres et des services exclusifs, ainsi qu'un accès prioritaire à nos produits.</p>",
+        "email_placeholder": "entrer votre email",
+        "submit_button": "Inscrivez-vous",
+        "text_color": "black",
+        "show_icon": false,
+        "icon_img_width": "30",
+        "show_agreement": true,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "54f46f76-4415-4867-b6bd-37dd560214f3": {
+      "type": "custom-content",
+      "blocks": {
+        "template--20183715250483__54f46f76-4415-4867-b6bd-37dd560214f3-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/483A8250_3.jpg",
+            "txt": "",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "template--20183715250483__54f46f76-4415-4867-b6bd-37dd560214f3-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "<ul><li><strong>Kuna Geneva:</strong><br/>16 Rue de la Corraterie, 1204 Geneva, Switzerland.</li></ul>",
+            "width": "25%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "2b3c641a-83ae-44de-bbf7-85ac93f670b4": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "<ul><li>+41 22 570 10 77<br/></li><li>kuna@alphatops.ch</li></ul>",
+            "width": "25%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "template--20183715250483__54f46f76-4415-4867-b6bd-37dd560214f3-image-1",
+        "template--20183715250483__54f46f76-4415-4867-b6bd-37dd560214f3-text-1",
+        "2b3c641a-83ae-44de-bbf7-85ac93f670b4"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "w-full",
+        "background_color": "#000000",
+        "gap": 15,
+        "use_scroll_mobile": false,
+        "gap_mobile": 30,
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "c72959ad-9620-4e94-ae33-1bde908e9701",
+    "1621243260e1af0c20",
+    "slider_dCDaQB",
+    "5fafe524-a6cc-4cdc-bd16-c046f3843530",
+    "bb029fb2-9618-433f-b8e6-77e9741d678a",
+    "custom_content_Cq79gh",
+    "16225316461d1cff80",
+    "ab3f72df-939e-44ee-956f-26e9cad2f194",
+    "7ea56e8d-5794-4708-8812-8ee9604a3a21",
+    "c8d605b9-3094-47d8-bb6c-cff8f5f5d3f4",
+    "ff1d4bc4-24fe-47c4-8c64-623e832974fc",
+    "54f46f76-4415-4867-b6bd-37dd560214f3"
+  ]
+}
