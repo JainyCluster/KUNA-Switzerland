@@ -255,64 +255,6 @@
         "animations": "inherit"
       }
     },
-    "slider_dCDaQB": {
-      "type": "slider",
-      "blocks": {
-        "slider_item_NWwyNw": {
-          "type": "slider_item",
-          "settings": {
-            "mesVisible": 1,
-            "diaVisible": 1,
-            "horaVisible": 1,
-            "mesInvisible": 12,
-            "diaInvisible": 31,
-            "horaInvisible": 23,
-            "background": "shopify://shop_images/ICONOS_ENG_DESKTOP_2.png",
-            "mb_background": "shopify://shop_images/ICONOS_ENG_CEL_3.png",
-            "video": "",
-            "video_mb": "",
-            "content_in_container": true,
-            "content_position": "center bottom",
-            "text_alignment": "center",
-            "text_size": "medium",
-            "text_color": "white",
-            "subheading": "",
-            "title": "",
-            "description": "",
-            "image_link": "shopify://collections/soldes",
-            "button_text": "",
-            "button_link": "shopify://collections/soldes",
-            "button_text_2": "DÉCOUVREZ",
-            "button_link_2": "shopify://collections/soldes",
-            "button_style": "sf__btn-white",
-            "button_style_2": "sf__btn-primary",
-            "button_size": "sf__btn-small",
-            "show_footer": false,
-            "footer_alignment": "end",
-            "footer_text": "New Collection",
-            "footer_button": "Shop Now",
-            "footer_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slider_item_NWwyNw"
-      ],
-      "settings": {
-        "container": "container-fluid",
-        "slideshow_height": "adapt",
-        "show_overlay": false,
-        "dots_position": "bottom",
-        "dots_color": "light",
-        "show_dots": false,
-        "show_arrows": false,
-        "autorotate": false,
-        "autorotate_speed": 6,
-        "use_content_above": true,
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
     "5fafe524-a6cc-4cdc-bd16-c046f3843530": {
       "type": "collection-list",
       "blocks": {
@@ -467,7 +409,7 @@
         "description": "",
         "header_alignment": "left",
         "container_type": "boxed",
-        "container": "container-fluid",
+        "container": "w-full",
         "background_color": "rgba(0,0,0,0)",
         "collection": "vicuna-luxury",
         "enable_flashsale": false,
@@ -731,6 +673,64 @@
         "show_dots": true,
         "show_arrows": false,
         "autorotate": true,
+        "autorotate_speed": 6,
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "slider_dCDaQB": {
+      "type": "slider",
+      "blocks": {
+        "slider_item_NWwyNw": {
+          "type": "slider_item",
+          "settings": {
+            "mesVisible": 1,
+            "diaVisible": 1,
+            "horaVisible": 1,
+            "mesInvisible": 12,
+            "diaInvisible": 31,
+            "horaInvisible": 23,
+            "background": "shopify://shop_images/ICONOS_ENG_DESKTOP_2.png",
+            "mb_background": "shopify://shop_images/ICONOS_ENG_CEL_3.png",
+            "video": "",
+            "video_mb": "",
+            "content_in_container": true,
+            "content_position": "center bottom",
+            "text_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "subheading": "",
+            "title": "",
+            "description": "",
+            "image_link": "shopify://collections/soldes",
+            "button_text": "",
+            "button_link": "shopify://collections/soldes",
+            "button_text_2": "DÉCOUVREZ",
+            "button_link_2": "shopify://collections/soldes",
+            "button_style": "sf__btn-white",
+            "button_style_2": "sf__btn-primary",
+            "button_size": "sf__btn-small",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slider_item_NWwyNw"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "slideshow_height": "adapt",
+        "show_overlay": false,
+        "dots_position": "bottom",
+        "dots_color": "light",
+        "show_dots": false,
+        "show_arrows": false,
+        "autorotate": false,
         "autorotate_speed": 6,
         "use_content_above": true,
         "custom_class": "",
@@ -1252,10 +1252,10 @@
   "order": [
     "c72959ad-9620-4e94-ae33-1bde908e9701",
     "1621243260e1af0c20",
-    "slider_dCDaQB",
     "5fafe524-a6cc-4cdc-bd16-c046f3843530",
     "bb029fb2-9618-433f-b8e6-77e9741d678a",
     "slider_hRd86M",
+    "slider_dCDaQB",
     "custom_content_Cq79gh",
     "16225316461d1cff80",
     "ab3f72df-939e-44ee-956f-26e9cad2f194",
