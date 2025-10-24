@@ -403,6 +403,9 @@
     },
     "bb029fb2-9618-433f-b8e6-77e9741d678a": {
       "type": "featured-collection",
+      "custom_css": [
+        ".sf__pcard > span {position: absolute; left: 0.8rem !important; top: 1rem !important; padding: 4px 12px !important; background-color: #3b3b3b; color: #fff; z-index: 9; font-size: 10px !important; font-weight: bold;}"
+      ],
       "settings": {
         "heading": "",
         "subheading": "",
